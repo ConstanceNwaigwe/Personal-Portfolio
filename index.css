@@ -1,0 +1,191 @@
+html,
+body {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.intro {
+  top: 0;
+  background-color: #e0ebe8;
+  height: 55vh;
+  padding-top: 45vh;
+  line-height: 320%;
+  /*   line-height: 100vh; */
+  /*   width:100%;
+  height:96vh;
+border:solid; */
+}
+
+.intro p {
+  color: green;
+}
+
+nav ul {
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  background-color: #e0ebe8;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 3% 5% 1% 5%;
+}
+
+nav ul li a {
+  color: #008080;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: #fff;
+}
+
+.aboutme img{
+  width: 20vw;
+  height: 45vh;
+}
+.aboutme p{
+  line-height: 290%;
+  padding-left: 3%;
+  height: 55vh;
+}
+.aboutme{
+  display: flex;
+  text-align: left;
+  height: 55vh;
+  padding:2% 2% 6% 2%;
+  background-color: #bce0bc;
+}
+.aboutsection{
+  background-color: #bce0bc;
+}
+strong{
+  color:#396659;
+}
+h2{
+  padding:3% 0% 2% 0%;
+}
+
+.skillset{
+  background-color: #e0ebe8;
+  height: 100vh;
+}
+.skillset div{
+  /*display:flex;
+  flex-wrap: wrap;
+  justify-content:space-around;*/
+  display: inline-block;
+  overflow: hidden;
+  border:1px dashed;
+  width:30%;
+  padding:2%;
+  background-color:black;
+}
+.skillset p{
+  border:2px solid black;
+  padding:5%;
+  background-color:white;
+  color:green;
+}
+.skillset p:hover{
+  background-color:green;
+  color:white;
+}
+.work{
+  padding-bottom:4%;
+}
+.work .work-header {
+  margin-top: 3%;
+  color: #008080;
+  font-weight: normal;
+}
+
+.project {
+  text-decoration: none;
+  color: #008080;
+  display: inline-block;
+  overflow: hidden;
+  border: 2px solid lightblue;
+  height: 10%;
+  width: 28%;
+  margin: 4% 10%;
+  box-shadow: 10px 5px 5px gray;
+  transition: transform 1s .1s;
+  border-radius:10%;
+}
+.project:hover{
+  transform: scale(1.2);
+  box-shadow: 0px 0px 0px white;
+}
+
+.project-pic {
+  width: 100%;
+  height: 180px;
+  border-bottom: 2px solid lightblue;
+}
+
+.project-title {
+  font-weight: bold;
+}
+
+
+.contact {
+  background: #C8F7C5;
+  padding: 5% 0% 2% 0%;
+}
+.contact-details {
+  display: inline-block;
+  font-weight: bold;
+  margin: 6% 3% 4% 5%;
+  padding: 3%;
+  list-style-type: none;
+  border: 2px solid #90C695;
+  border-radius: 5%;
+  background: #e0ebe8;
+  color: #008080;
+  text-decoration: none;
+}
+
+.contact-details:hover {
+  background: #E4F1FE;
+  color: green;
+}
+
+
+@media only screen and (max-width: 990px) {
+  
+  .aboutme p{
+    line-height: 200%;
+    padding-left: 3%;
+    height: 55vh;
+  }
+  .aboutme{
+    height: 55vh;
+  }
+  .aboutsection{
+    padding:6% 0% 0% 0%;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  
+  .aboutme p{
+    height: 55vh;
+  }
+  .aboutme{
+    height: 75vh;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+
+  .aboutme{
+    height: 120vh;
+  }
+}
